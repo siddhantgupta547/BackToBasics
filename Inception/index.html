@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namaste React</title>
+    <script
+      src="https://unpkg.com/react@18/umd/react.production.min.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"
+      crossorigin
+    ></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+  <script>
+    const root = document.getElementById('root');
+
+    /*------------------------------------------------------- 1st Approach ------------------------------------------------*/
+    //root.innerHTML = '<h1>Namaste React</h1>';
+    /*------------------------------------------------------- 2nd Approach ------------------------------------------------*/
+    // const h1 = document.createElement('h1');
+    // h1.innerText = 'Namaste React';
+    // root.appendChild(h1);
+
+    /*------------------------------------------------------- 3rd Approach using react ------------------------------------------------*/
+    // const h1 = React.createElement('h1', { id: 'heading' }, 'Namaste React');
+    // const reactRoot = ReactDOM.createRoot(root);
+    // reactRoot.render(h1);
+  </script>
+  <script src="./App.js"></script>
+</html>
