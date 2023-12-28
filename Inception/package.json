@@ -1,0 +1,33 @@
+{
+  "name": "back-to-basics-react",
+  "version": "1.0.0",
+  "description": "b2b-inception",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddhantgupta547/BackToBasics.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddhantgupta547/BackToBasics/issues"
+  },
+  "homepage": "https://github.com/siddhantgupta547/BackToBasics#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist":[
+    "last 2 versions"
+  ]
+}

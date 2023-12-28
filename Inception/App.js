@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 const h1 = React.createElement('h1', { id: 'heading' }, 'Namaste React'); // returns an object
 
 const nestedStructure = React.createElement('div', { id: 'parent' }, [
