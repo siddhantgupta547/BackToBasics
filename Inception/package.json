@@ -4,6 +4,8 @@
   "description": "b2b-inception",
   "main": "App.js",
   "scripts": {
+    "start": "npx parcel index.html",
+    "build": "npx build index.html",
     "test": "jest"
   },
   "repository": {
@@ -27,7 +29,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "browserslist":[
+  "browserslist": [
     "last 2 versions"
   ]
 }
